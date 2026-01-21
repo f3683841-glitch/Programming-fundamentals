@@ -1,0 +1,72 @@
+ #include<iostream>
+ using namespace std;
+ int main(){
+    int n;
+    cout<<"Enter n :";
+    cin>>n;
+ if(n/2==0)  cout<<"Even number";
+ else cout<<"odd number";
+ 
+int x;
+cin>>x;
+if(x>=0) cout<<x;
+else cout<<-x;
+int cp;
+cout<<"Enter the cp";
+cin>>cp;
+int sp;
+cout<<"Enter the sp";
+cin>>sp;
+if(sp>cp) {
+   cout<<"profit";
+}
+  if(sp<cp) {
+   cout<<"loss";
+  }
+  if (sp==cp) {
+   cout<<"no profit ,no loss";
+  }
+int n;
+cout<<" enter a number :";
+cin>>n;
+if(n%5==0 and n%3==0) cout<<"divisible";
+else cout<<"not divisible";
+
+int a;
+cout<<"enter a";
+cin>>a;
+int b;
+cout<<"enter b";
+cin>>b;
+int c;
+cout<<"enter c";
+cin>>c;
+if(a+b>c and b+c>a and c+a>b) cout<<"sides of triangle";
+else cout<<"not";
+
+int a,b,c;
+cout<<"enter first side :";
+cin>>a;
+cout<<"enter secon side :";
+cin>>b;
+cout<<"enter third side :";
+cin>>c;
+if((a+b) >c and (b+c) >a and (c+a) >b) cout<<"sides of triangle";
+else cout<<"NOT";
+ int n;
+ cout<<"enter n :";
+ cin>>n;
+//  int a=3;
+//  for(int i=1;i<=n;i++){
+//  cout<<a<<endl;
+//  a=a * 4;
+int f=1;
+ for(int i=1;i<n;i++){
+ if(n%i==0) f=i;
+ cout<<i<<endl;
+ 
+ cout<<f;
+ }
+
+
+}
